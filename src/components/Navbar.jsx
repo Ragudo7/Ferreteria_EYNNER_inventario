@@ -1,16 +1,8 @@
 import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
-  const navigate = useNavigate();
-
-  const handleLogout = () => {
-    // Aquí podrías limpiar datos del usuario (localStorage, estados, etc.)
-    // localStorage.clear();
-    navigate('/');
-  };
-
   return (
     <nav className="navbar">
       <h1 className="navbar-logo">Ferretería EYNER</h1>
@@ -23,10 +15,8 @@ const Navbar = () => {
         <li><Link to="/configuracion">Configuración</Link></li>
         <li><Link to="/informes">Informes</Link></li>
       </ul>
-      <button className="logout-button" onClick={handleLogout}>Cerrar sesión</button>
     </nav>
   );
 };
 
 export default Navbar;
-
