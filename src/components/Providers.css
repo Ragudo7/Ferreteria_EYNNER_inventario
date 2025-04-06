@@ -1,0 +1,23 @@
+.provider-container {
+    padding: 20px;
+  }
+  
+  .provider-form input {
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  .provider-form button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #009900;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  

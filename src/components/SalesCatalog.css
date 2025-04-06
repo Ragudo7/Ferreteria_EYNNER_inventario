@@ -1,0 +1,27 @@
+.sales-catalog-container {
+    padding: 20px;
+  }
+  
+  .product-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 180px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .product-card button {
+    margin-top: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+  }
+  

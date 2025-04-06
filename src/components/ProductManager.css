@@ -1,24 +1,42 @@
-.product-manager {
-  margin: 20px;
-  padding: 20px;
-  border: 1px solid #ccc;
+.product-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  background: #f3f3f3;
+  border-radius: 10px;
 }
 
-.product-manager form input {
-  margin: 5px;
-  padding: 5px;
+.product-form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
 }
 
-.product-manager button {
-  margin-left: 10px;
-  padding: 5px 10px;
-  background-color: #007bff;
+.product-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #27ae60;
   color: white;
   border: none;
+  border-radius: 6px;
   cursor: pointer;
 }
 
-.product-manager ul {
-  list-style-type: none;
+.product-list {
+  margin-top: 2rem;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.product-list ul {
+  list-style: none;
   padding: 0;
+}
+
+.product-list li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ddd;
 }
