@@ -1,0 +1,24 @@
+.product-manager {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.product-manager form input {
+  margin: 5px;
+  padding: 5px;
+}
+
+.product-manager button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.product-manager ul {
+  list-style-type: none;
+  padding: 0;
+}
